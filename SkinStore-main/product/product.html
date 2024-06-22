@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product</title>
+    <link rel="stylesheet" href="./product.css">
+</head>
+<body>
+    <h2 id="discount">15% off with code SS15 + Select TWO free gifts when you spend $140+</h2>
+    <div id="parent">
+        <div id="image">
+            <img src="https://static.thcdn.com/images/large/webp//productimg/1600/1600/12664555-1704871739992403.jpg" alt="">
+        </div>
+
+        <div id="details">
+            <img src="https://s1.thcdn.com/design-assets/images/logos/shared-brands/colour/neocutis.gif" alt="" style="width: 200px;">
+            <h1>Neocutis Lumière Firm Riche Extra Moisturizing Illuminating and Tightening Eye Cream 15ml</h1>
+            <form class="price">
+                <input type="radio" name="price">
+                <label for="price">$118.00 One time Purchase</label><br><hr>
+                <input type="radio" name="price">
+                <label for="price">$200.00 One time Purchase</label>
+            </form>
+            <h2>$118.00</h2>
+            <form action="https://github.com/Jageshwar2000/SkinStore/blob/c66f668c2d5e09a85b4f518b6a01324c7e94e3ae/cart/cart.html">
+            <button>ADD TO CART</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    var form = document.getElementsByClassName('price')
+    console.log(form.textContent)
+</script>
+</html>
